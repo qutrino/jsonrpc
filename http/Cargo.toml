@@ -14,5 +14,5 @@ log = "0.3"
 net2 = "0.2"
 jsonrpc-core = { version = "7.0", path = "../core" }
 jsonrpc-server-utils = { version = "7.0", path = "../server-utils" }
-hyper = "0.10.10"
+hyper = { git = "https://github.com/hyperium/hyper", rev="e2ed6f5868" }
 unicase = "2.0"
