@@ -10,7 +10,7 @@ keywords = ["jsonrpc", "json-rpc", "json", "rpc", "server"]
 documentation = "https://paritytech.github.io/jsonrpc/jsonrpc_http_server/index.html"
 
 [dependencies]
-log = "=0.3"
+log = "0.3"
 net2 = "0.2"
 jsonrpc-core = { version = "7.0", path = "../core" }
 jsonrpc-server-utils = { version = "7.0", path = "../server-utils" }
