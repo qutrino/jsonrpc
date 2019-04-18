@@ -10,9 +10,9 @@ keywords = ["jsonrpc", "json-rpc", "json", "rpc", "server"]
 documentation = "https://paritytech.github.io/jsonrpc/jsonrpc_http_server/index.html"
 
 [dependencies]
-log = "0.3"
-net2 = "0.2"
+log = "0.3.8"
+net2 = "0.2.29"
 jsonrpc-core = { version = "7.0", path = "../core" }
 jsonrpc-server-utils = { version = "7.0", path = "../server-utils" }
 hyper = { git = "https://github.com/hyperium/hyper", rev="e2ed6f5868" }
-unicase = "2.0"
+unicase = "2.0.0"
